@@ -1,3 +1,6 @@
 # coders2024
-Estudos pro Santander Coders 2024
-XXOROFB
+O QUE VAMOS FAZER
+PRA RESOLVER
+A QUESTÃO?
+
+## TESTE ##
