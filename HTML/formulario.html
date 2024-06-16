@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <form>
+            <div>
+                <label for="texto">Texto:</label>
+                <input type="text" id="texto" placeholder="Informe aqui o seu nome...">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" value="+55 (11)">
+            </div>
+
+            <div>
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereço" name="Rua">
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            
+            <div>
+                <label for="barrinha">Número</label>
+                <input type="range" id="barrinha" name="barrinha" value="100" max="200" min="50" >
+            </div>
+            <textarea name="bio" id="bio" placeholder="Fale sobre você"></textarea>
+            <div>
+            <br>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="Aluna">Aluna</option>
+                <option value="Ex-Aluna">Ex-Aluna</option>
+                <option value="pais">Responsável Legal</option>
+                <option value="Conjuge">Conjuge</option>
+                <option value="Dependente">Dependente</option>
+
+
+            </select>
+            </div>
+            <br><br>
+            <div>
+                <input type="submit" id="qualquer" name="qualquer">
+            </div>
+
+
+
+        </form>
+
+
+    </main><br>
+    <hr>
+    <footer><h6>Desenvolvido por <b>Mariana Silva</b></h6></footer>
+    
+</body>
+</html>
